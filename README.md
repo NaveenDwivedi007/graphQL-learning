@@ -21,6 +21,15 @@ similar to POST,PUT and DELETE http request
 adv not yet underStandard by me.
 
 ### Schema
+- to create schema we use SDL(schema defination language)
+- programmatically creating a schema using language constructs
+
+#### basic parts of schema
+- **Types**- a construct defining a shaps with fields
+- **Fields**- key on a type that have a name and a value
+- **Scalars**- primitive value type build into graphQL
+- **Query**- type that defined how client can access data
+- **Mutations**- type that define how client can modify or create data 
 
 
 ## client side 
@@ -34,10 +43,10 @@ adv not yet underStandard by me.
 
 ## Dependency use
 ### apollo-serve
-npm i apollo-server ~ to install the dependency~
+- npm i apollo-server ~ to install the dependency~
 
 
 
 ## Dev Dependency
 ### nodemon
-npm i nodemon
+- npm i nodemon
