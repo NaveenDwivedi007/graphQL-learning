@@ -19,7 +19,8 @@ const typeDefs = gql`
   }
 
   type Query {
-    me:User!
+    me:User!,
+    name:String
   }
 `
 // resolver have a same value type as type defs
@@ -31,6 +32,9 @@ const resolvers = {
         avatar:'http://yoda.pnd',
         friends:[]
       }
+    },
+    name(){
+      return 'Hello'
     }
   }
 }
