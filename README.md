@@ -1,13 +1,17 @@
 # In this I learn about server side graphQL for client
 
-## What i Learn 
+## What I Learn 
 ### type definition
 similar to typescript 
 type is based on the database/schema
 
 ### Resolver
-its like a controller in rest api 
-in which our logic is writen to retrive the data from data source
+- its like a controller in rest api 
+- In which our logic is writen to retrive the data from data source
+- Resolver name must match the exact field name on schema types
+- resolver must reatun the value type declare for matching field
+- resolver can be async
+- resolver can get data from anywhere (bd/multiple db)
 
 ### Query Definition
 its for asking the data like get http request
