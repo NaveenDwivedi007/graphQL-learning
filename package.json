@@ -1,0 +1,22 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "## What i Learn  ### type definition similar to typescript  type is based on the database/schema",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaveenDwivedi007/graphQL-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaveenDwivedi007/graphQL-learning/issues"
+  },
+  "homepage": "https://github.com/NaveenDwivedi007/graphQL-learning#readme",
+  "dependencies": {
+    "apollo-server": "^3.11.1"
+  }
+}
